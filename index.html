@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Design Company</title>
+
+    <link rel="stylesheet" href="./main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Qwitcher+Grypen:wght@400;700&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+        <script>document.documentElement.classList.add('js')</script>
+</head>
+
+<body class="relative w-full mx-auto transition-all duration-1000 !scroll-smooth ">
+        <nav class="">
+            <div class="  mx-auto flex items-center justify-between pt-5 relative mx-10">
+                <a href="/" class="cursor-pointer "><img src="./Resources/Group 1.svg" alt="The Design Company" width="145px"></a>
+        
+                <ul class="flex space-x-5 font-semibold text-base font-Inter">
+                    <li class="text-black hover:text-light-purple cursor-pointer transition-all duration-200 relative group 
+                    pb-2">
+                        <a href="#">Category</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-light-purple hidden group-hover:block transition-all duration-200 rounded-3xl"></div>
+                    </li>
+                    <li class="text-black hover:text-light-purple cursor-pointer transition-all duration-200 relative group
+                    pb-2 ">
+                        <a href="#">Pricing</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-light-purple hidden group-hover:block transition-all duration-200 rounded-3xl"></div>
+                    </li>
+                    <li class="text-black hover:text-light-purple cursor-pointer transition-all duration-200 relative group 
+                    pb-2"><a href="./order.html">Orders</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-light-purple hidden group-hover:block transition-all duration-200 rounded-3xl"></div>
+                    </li>
+                    <li class="text-black hover:text-light-purple cursor-pointer transition-all duration-200 relative group
+                    pb-2 "><a href="#">About</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-light-purple hidden group-hover:block transition-all duration-200 rounded-3xl"></div>
+                    </li>
+                </ul>
+                <div class="flex font-semibold text-base font-Inter">
+                    <button  class="pr-3 items-center flex space-x-2"><img width="20px" height="20px" src="./Resources/ingate.png" alt="">Login</button>
+                    <button class="rounded-xl bg-light-purple w-20 h-8 hover:w-24 hover:h-12 transition-all duration-800 text-white" style="color: aliceblue;">Sign Up</button>
+                </div>
+            </div>
+           </nav>
+   <div class="relative mx-auto pt-3 ">
+    <a href="#">
+        <img src="./Resources/Flyer.gif" alt="" class="w-full">
+    </a>
+   </div>
+   <div class="catagory">
+    <div>
+        <p class="text-center pt-3 text-4xl font-bold font-Inria-serif ">
+            Category
+        </p>
+       </div>
+       <div class="pt-3 flex space-x-7 overflow-hidden flex-nowrap ">
+            <div class="bg-light-purple rounded-20 border-solid w-200 h-200 rounded-2xl">
+            <img src="" alt="">
+            </div>
+            <div class="bg-light-purple rounded-20 border-solid w-200 h-200 rounded-2xl flex-shrink-0"></div>
+            <div class="bg-light-purple rounded-20 border-solid w-200 h-200 rounded-2xl flex-shrink-0"></div>
+            <div class="bg-light-purple rounded-20 border-solid w-200 h-200 rounded-2xl flex-shrink-0"></div>
+            <div class="bg-light-purple rounded-20 border-solid w-200 h-200 rounded-2xl flex-shrink-0"></div>
+            <div class="bg-light-purple rounded-20 border-solid w-200 h-200 rounded-2xl flex-shrink-0"></div>
+            <div class="bg-light-purple rounded-20 border-solid w-200 h-200 rounded-2xl flex-shrink-0"></div>
+            <div class="bg-light-purple rounded-20 border-solid w-200 h-200 rounded-2xl flex-shrink-0"></div>
+            <div class="bg-light-purple rounded-20 border-solid w-200 h-200 rounded-2xl flex-shrink-0"></div>
+       </div>
+   </div>
+    <div
+    x-data="{}"
+    x-init="$nextTick(() => {
+        let ul = $refs.logos;
+        ul.insertAdjacentHTML('afterend', ul.outerHTML);
+        ul.nextSibling.setAttribute('aria-hidden', 'true');
+    })"
+    class="w-full inline-flex flex-nowrap overflow-hidden h-229 bg-light-purple mt-5">
+    <p class="font-bold text-7xl font-Qwitcher-Grypen ml-[850px]  items-center" style="color: rgb(238, 238, 238);">Constumers</p>
+    <ul x-ref="logos" class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        <li>
+            <img src="./Resources/facebook.svg" alt="Facebook" />
+        </li>
+        <li>
+            <img src="./Resources/disney.svg" alt="Disney" />
+        </li>
+        <li>
+            <img src="./Resources/airbnb.svg" alt="Airbnb" />
+        </li>
+        <li>
+            <img src="./Resources/apple.svg" alt="Apple" />
+        </li>
+        <li>
+            <img src="./Resources/spark.svg" alt="Spark" />
+        </li>
+        <li>
+            <img src="./Resources/samsung.svg" alt="Samsung" />
+        </li>
+        <li>
+            <img src="./Resources/quora.svg" alt="Quora" />
+        </li>
+        <li>
+            <img src="./Resources/sass.svg" alt="Sass" />
+        </li>
+    </ul> 
+    <ul x-ref="logos" class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        <li>
+            <img src="./Resources/facebook.svg" alt="Facebook" />
+        </li>
+        <li>
+            <img src="./Resources/disney.svg" alt="Disney" />
+        </li>
+        <li>
+            <img src="./Resources/airbnb.svg" alt="Airbnb" />
+        </li>
+        <li>
+            <img src="./Resources/apple.svg" alt="Apple" />
+        </li>
+        <li>
+            <img src="./Resources/spark.svg" alt="Spark" />
+        </li>
+        <li>
+            <img src="./Resources/samsung.svg" alt="Samsung" />
+        </li>
+        <li>
+            <img src="./Resources/quora.svg" alt="Quora" />
+        </li>
+        <li>
+            <img src="./Resources/sass.svg" alt="Sass" />
+        </li>
+    </ul>                  
+</div>
+    
+   <div class="text-center mt-5">
+    <p class="font-bold text-6xl font-Qwitcher-Grypen" style="color: black;">Our</p>
+    <p class="font-bold text-8xl font-Qwitcher-Grypen" style="color: black;">Creative</p>
+    <p class="font-bold text-7xl font-Qwitcher-Grypen" style="color: rgb(255, 0, 0);">Team</p>
+   </div>
+
+   <div class="pt-2 flex justify-between mx-10">
+    <div class="text-center"><img src="./Resources/birla.svg" alt="">
+        <p class="font-Inter text-2xl font-semibold">Om Birla</p>
+        <p class="font-Inter text-3xl font-semibold">UI/UX Designer</p>
+        <p class="font-Inter text-2xl font-semibold">@TheDesignCompany</p>
+    </div>
+    <div class="text-center"><img src="./Resources/Developer.svg" alt="">
+        <p class="font-Inter text-2xl font-semibold pt-3">Vivek Bendre</p>
+        <p class="font-Inter text-3xl font-semibold">Developer Head</p>
+        <p class="font-Inter text-2xl font-semibold">@TheDesignCompany</p>
+    </div>
+    <div class="text-center"><img src="./Resources/birla.svg" alt="">
+        <p class="font-Inter text-2xl font-semibold">Om Birla</p>
+        <p class="font-Inter text-3xl font-semibold">Graphic Head</p>
+        <p class="font-Inter text-2xl font-semibold">@TheDesignCompany</p></div>
+   </div>
+   <div class="bg-light-black w-full h-[480px] mt-5">
+    <div class=" flex">
+        <div class="flex justify-between w-full">
+            <div class="text-white mt-9 ml-[4.5rem]">
+                <ul>
+                    <li class="font-Kanit font-semibold mb-5 text-2xl">Menu</li>
+                    <li class="font-Inter text-lg mb-2 hover:text-light-purple cursor-pointer transition-all duration-200"><a href="">About Us</a></li>
+                    <li class="font-Inter text-lg mb-2 hover:text-light-purple cursor-pointer transition-all duration-200"><a href="">Designs</a></li>
+                    <li class="font-Inter text-lg mb-2 hover:text-light-purple cursor-pointer transition-all duration-200"><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="text-white mt-9">
+                <ul>
+                    <li class="font-Kanit font-semibold mb-5 text-2xl">Services</li>
+                    <li class="font-Inter text-lg mb-2 hover:text-light-purple cursor-pointer transition-all duration-200"><a href="">Privacy Policy</a></li>
+                    <li class="font-Inter text-lg mb-2 hover:text-light-purple cursor-pointer transition-all duration-200"><a href="">Terms of Use</a></li>
+                    <li class="font-Inter text-lg mb-2 hover:text-light-purple cursor-pointer transition-all duration-200"><a href="">Refund & Cancellation Policy</a></li>
+                </ul>
+            </div>
+            <div class="inline-block h-[140px] min-h-[1em] w-0.5 self-stretch  dark:bg-white mt-9 mr-9">
+    
+            </div>
+            <div class="text-white mt-9 mr-72">
+                <ul>
+                    <li class="font-Kanit font-semibold mb-2 text-2xl">Get in Touch</li>
+                    <li class="font-Inter text-lg">Email: <a href="mailto:thedesigncompany101@gmail.com" class="hover:text-light-purple cursor-pointer transition-all duration-200">thedesigncompany101@gmail.com</a></li>
+                    <li>
+                        <ul class="flex mt-7">
+                            <li class="w-[40px] h-[40px] mr-[20px]"><a href="https://www.instagram.com/thedesigncompany.art/"><img src="./Resources/Instagram_icon.svg" alt="Instagram_icon"></a></li>
+                            <li class="w-[40px] h-[40px] mr-[20px]"><a href="https://x.com/thedesigncpmny?s=08"><img src="./Resources/X_icon.svg" alt="X_icon"></a></li>
+                            <li class="w-[60px] h-[60px] mr-[20px]"><a href=""><img src="./Resources/meta_icon.svg" alt="meta_icon"></a></li>
+                        </ul>
+                    </li>    
+                </ul>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div>
+        </div>
+        <div class="flex">
+            <div class="inline-block w-[790px] min-w-[1em] h-0.5 self-stretch  dark:bg-white mt-[4.5rem] ml-10">
+            </div>
+            <div class="w-[308px] h-[148px]">
+                <img src="./Resources/Footer_logo.svg" alt="TheDesignCompany">
+            </div>
+            <div class="inline-block w-[690px] min-w-[1em] h-0.5 self-stretch  dark:bg-white mt-[4.5rem] ml-4">
+            </div>
+        </div>
+        <div class="text-white ml-[730px] mt-20 text-xl">
+            <p>
+                Copyright <b>&#169;</b> 2024 thedesigncompany Pvt Ltd. All Right reserved
+            </p>
+            
+            
+        </div>
+        </div>
+    </div>
+   </div>
+   <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+</body>
+
+</html>
