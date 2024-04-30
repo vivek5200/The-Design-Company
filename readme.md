@@ -1,10 +1,10 @@
-# Project Name
+# The Design Company 🚀
 
-Welcome to our project! This repository contains the code for [Project Name]. Follow the steps below to set up the development environment.
+Welcome to our project! This repository contains the code for The Design Company. Follow the steps below to set up the development environment.
 
 ## Step 1: Installing Node.js
 
-### For Windows:
+### For Windows 💻:
 
 1. **Download Node.js Installer:**
    - Visit [Node.js official website](https://nodejs.org/).
@@ -20,7 +20,7 @@ Welcome to our project! This repository contains the code for [Project Name]. Fo
    - Type `npm -v` and press Enter.
    - Verify that Node.js and npm are installed correctly.
 
-### For Ubuntu:
+### For Ubuntu 🐧:
 
 1. **Using NodeSource:**
    - Open Terminal.
@@ -85,4 +85,4 @@ Welcome to our project! This repository contains the code for [Project Name]. Fo
      npm run build:css
      ```
 
-That's it! You have now set up Node.js and installed Tailwind CSS for your project.
+That's it! You have now set up Node.js and installed Tailwind CSS for your project. Happy coding! 🎉
