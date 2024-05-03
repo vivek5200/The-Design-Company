@@ -52,7 +52,14 @@ module.exports = {
       spacing:{
         '200':'12.5rem',
         '229':'14.313rem'
-      }
+      },
+      boxShadow: {
+        '3xl': '0 35px 60px rgba(255, 165, 0, 0.25)',
+        '3xl':
+            '0 45px 65px rgba(155, 48, 255, 0.15)'
+       
+      },
+      
     },
   },
   plugins: [],
