@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="">
-        <div class="  mx-auto flex items-center justify-between pt-5 relative mx-10">
+    <nav class="w-full">
+        <div class="flex items-center justify-between pt-5 relative mx-10">
             <a href="/" class="cursor-pointer" data-aos="zoom-in-left" data-aos-delay="300"><img src="./Resources/Group 1.svg" alt="The Design Company" width="145px"></a>
     
             <ul class="flex space-x-5 font-semibold text-base font-Inter">
                 <li class="text-black hover:text-light-purple cursor-pointer transition-all duration-200 relative group 
                 pb-2" data-aos="zoom-in-left" data-aos-delay="450">
-                    <a href="#">Category</a>
+                    <a href="./catagory.html">Category</a>
                     <div class="absolute bottom-0 w-full h-1 bg-light-purple hidden group-hover:block transition-all duration-200 rounded-3xl"></div>
                 </li>
                 <li class="text-black hover:text-light-purple cursor-pointer transition-all duration-200 relative group
@@ -28,12 +28,13 @@
                     <div class="absolute bottom-0 w-full h-1 bg-light-purple hidden group-hover:block transition-all duration-200 rounded-3xl"></div>
                 </li>
                 <li class="text-black hover:text-light-purple cursor-pointer transition-all duration-200 relative group
-                pb-2 " data-aos="zoom-in-left" data-aos-delay="900"><a href="#">About</a>
+                pb-2 " data-aos="zoom-in-left" data-aos-delay="900"><a href="./about.html">About</a>
                     <div class="absolute bottom-0 w-full h-1 bg-light-purple hidden group-hover:block transition-all duration-200 rounded-3xl"></div>
                 </li>
             </ul>
             <div class="flex font-semibold text-base font-Inter">
-                <button  class="pl-2 items-center flex border border-black rounded-xl w-20 h-8 hover:w-24 hover:h-10 transition-all" data-aos="zoom-in-left" data-aos-delay="1150" onclick="window.location.href='Login.html';"><img width="20px" height="20px" src="./Resources/ingate.png" alt="" >Login</button>
+                <button  class="pr-3 items-center flex space-x-2" data-aos="zoom-in-left" data-aos-delay="1150"><img width="20px" height="20px" src="./Resources/ingate.png" alt="" onclick="window.location.href='Login.html';" >Login</button>
+                <button class="rounded-xl bg-light-purple w-20 h-8 hover:w-24 hover:h-12 transition-all duration-800 text-white" style="color: aliceblue;" data-aos="fade-left" data-aos-delay="1300" onclick="window.location.href='SignUp.html';" >Sign Up</button>
             </div>
         </div>
        </nav>
