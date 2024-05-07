@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Design Company</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Qwitcher+Grypen:wght@400;700&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+        <script>document.documentElement.classList.add('js')</script>
 </head>
-<body>
+<body class="relative w-full mx-auto transition-all duration-1000 !scroll-smooth scrollbar-hide">
     <nav class="w-full">
         <div class="flex items-center justify-between pt-5 relative mx-10">
             <a href="/" class="cursor-pointer" data-aos="zoom-in-left" data-aos-delay="300"><img src="./Resources/Group 1.svg" alt="The Design Company" width="145px"></a>
@@ -38,34 +47,40 @@
             </div>
         </div>
        </nav>
-
-       <div class="flex justify-between border-2 border-light-purple rounded-3xl m-24 ml-40 mr-40 h-5/6  w-auto">
-
-         <div>
-            <img src="" alt="">
-         </div>
-
-         <div class = "LoginForm bg-light-purple h-auto w-2/4 rounded-3xl ">
-            <div class = "m-20">
-                <h1 class ="text-white pl-6 pt-10 mb-4 ml-10 text-4xl font-bold"> Login Your Account </h1>
-            <form action="" class="">
-                <i class="fa-solid fa-user text-white text-lg ml-16"></i>
-                <input type="text" id="Username" name="name" class="text-white bg-light-purple mb-4 mt-5 px-6 py-3 w-2/4 placeholder:text-white placeholder:text-lg placeholder:font-semibold " placeholder="Username"><br>
-                <div class="bottom w-2/3 h-1 ml-14 bg-white transition-all duration-200 rounded-3xl"></div>
-                <i class="fa-solid fa-lock text-white text-lg ml-16"></i>
-                <input type="password" id="Password" name="name" class="text-white bg-light-purple mb-4 mt-5 px-6 py-3 w-2/4 placeholder:text-white placeholder:text-lg placeholder:font-semibold" placeholder="Password"><br>
-                <div class="bottom w-2/3 h-1 ml-14 bg-white transition-all duration-200 rounded-3xl"></div>
-                <button class="bg-white text-light-purple h-12 w-32 ml-56 mt-10 rounded-3xl font-semibold text-lg ">Log in</button><br>
-                <div class=" pt-6 mb-16">
-                    <a href="signUp.html" class="text-white text-lg font-semibold mx-28">Create Account</a>
-                    <a href="SendUsMessage.html" class="text-white font-semibold">Forgot Password?</a>
-                </div>
-            </form>
+       <div class="flex mx-14 mt-9 gap-10">
+        <div class="w-[1100px] h-[700px]  shrink-0 ">
+            <img src="./Resources/mahashiv.jpg" alt="" class="w-full h-full rounded-3xl">
+        </div>
+        <div>
+            <div class="text-5xl font-Inria-serif pt-4">
+                Mahashivratri
             </div>
-         </div>
-         
-       </div>
+            <div class="text-xl font-Inria-serif pt-4">
+                Description of Design -:
+            </div>
+            <div class="text-xl font-Inria-serif pt-4">
+                Divine Backdrop: The radiant yellow background creates an auspicious atmosphere.
+            </div>
+            <div class="text-xl font-Inria-serif pt-4">Tridents and Damarus: Two tridents with Damarus are symmetrically placed on either side of Lord Shiva’s silhouette, detailed in red, brown, and black.</div>
+            <div class="text-xl font-Inria-serif pt-4">Cloud-like Pattern: A pattern at the bottom provides a base for the elements and text.</div>
+            <div class="text-xl font-Inria-serif pt-4">Festive Greetings: The text “HAPPY MAHA SHIVRATRI” is boldly written in white, with a subtext offering blessings.</div>
 
-    
-</body>
-</html>
+            <div class="text-xl font-Inria-serif pt-4 font-bold">
+                Designer -: VIVEK BENDRE
+            </div>
+
+            <div class="mt-12 flex justify-center">
+                <a href="./Resources/mahashiv.jpg" download="Mahashivratri">
+                    <button class="text-4xl bg-light-purple w-56 h-20 rounded-[50px] text-white font-bold font-Inria-serif">
+                        Download
+                    </button>
+                </a>
+            </div>
+        </div>
+       </div>
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       <script>
+         AOS.init();
+       </script>
+    </body>
+    </html>
